@@ -3,7 +3,7 @@
 //  Gojek_TestUITests
 //
 //  Created by Ernando Kasaluhe on 09/03/19.
-//  Copyright © 2019 PT Kita Indonesia Plus. All rights reserved.
+//  Copyright © 2019 Ernando. All rights reserved.
 //
 
 import XCTest

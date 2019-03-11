@@ -3,28 +3,48 @@
 //  Gojek_Test
 //
 //  Created by Ernando Kasaluhe on 10/03/19.
-//  Copyright © 2019 PT Kita Indonesia Plus. All rights reserved.
+//  Copyright © 2019 Ernando. All rights reserved.
 //
 
 import UIKit
 
+protocol FailedDelegate {
+    func setupRequestWeather()
+}
+
 class FailedViewController: UIViewController {
 
+    var delegate: FailedDelegate!
+    @IBOutlet weak var buttonRetry: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        setupContentLayout()
     }
+}
 
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+//MARK: - Layout
+extension FailedViewController {
+    func setupContentLayout() {
+        setupButtonRetry(withButton: buttonRetry)
     }
-    */
+    
+    func setupButtonRetry(withButton button: UIButton) {
+        button.layer.cornerRadius = 1.0
+        button.layer.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.25).cgColor
+        button.layer.shadowOffset = CGSize(width: 1.0, height: 1.0)
+        button.layer.shadowOpacity = 1.0
+        button.layer.shadowRadius = 0.0
+        button.layer.masksToBounds = false
+        button.layer.cornerRadius = 4.0
+        button.addTarget(self, action: #selector(buttonRetryTapped), for: .touchUpInside)
+    }
+}
 
+//MARK: - Action
+extension FailedViewController {
+    @objc func buttonRetryTapped() {
+        self.view.removeFromSuperview()
+        self.delegate.setupRequestWeather()
+    }
 }

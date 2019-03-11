@@ -7,14 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D4F9E72A625CB81AB0FECBB /* Pods_Gojek_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22282A51BF9831CD60566F35 /* Pods_Gojek_Test.framework */; };
+		47024F8622353FCD0082FF14 /* FailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47024F8422353FCD0082FF14 /* FailedViewController.swift */; };
+		47024F8722353FCD0082FF14 /* FailedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47024F8522353FCD0082FF14 /* FailedViewController.xib */; };
 		47C5F495223393B500250BA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C5F494223393B500250BA1 /* AppDelegate.swift */; };
-		47C5F497223393B500250BA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C5F496223393B500250BA1 /* ViewController.swift */; };
 		47C5F49A223393B500250BA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47C5F498223393B500250BA1 /* Main.storyboard */; };
 		47C5F49D223393B500250BA1 /* Gojek_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 47C5F49B223393B500250BA1 /* Gojek_Test.xcdatamodeld */; };
 		47C5F49F223393B700250BA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47C5F49E223393B700250BA1 /* Assets.xcassets */; };
 		47C5F4A2223393B700250BA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47C5F4A0223393B700250BA1 /* LaunchScreen.storyboard */; };
 		47C5F4AD223393B700250BA1 /* Gojek_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C5F4AC223393B700250BA1 /* Gojek_TestTests.swift */; };
 		47C5F4B8223393B700250BA1 /* Gojek_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C5F4B7223393B700250BA1 /* Gojek_TestUITests.swift */; };
+		47C5F4C62233A32800250BA1 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C5F4C52233A32800250BA1 /* WeatherViewController.swift */; };
+		47C5F4CD2233A86100250BA1 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47C5F4C92233A86100250BA1 /* Roboto-Medium.ttf */; };
+		47C5F4CE2233A86100250BA1 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47C5F4CA2233A86100250BA1 /* Roboto-Regular.ttf */; };
+		47C5F4CF2233A86100250BA1 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47C5F4CB2233A86100250BA1 /* Roboto-Thin.ttf */; };
+		47C5F4D02233A86100250BA1 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47C5F4CC2233A86100250BA1 /* Roboto-Bold.ttf */; };
+		47C5F4D22233A8BA00250BA1 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47C5F4D12233A8BA00250BA1 /* Roboto-Black.ttf */; };
+		47C5F4D72233ADE900250BA1 /* WeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C5F4D52233ADE900250BA1 /* WeatherTableViewCell.swift */; };
+		47C5F4D82233ADE900250BA1 /* WeatherTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47C5F4D62233ADE900250BA1 /* WeatherTableViewCell.xib */; };
+		47C5F4DE2233B5A300250BA1 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C5F4DB2233B5A200250BA1 /* Response.swift */; };
+		47C5F4DF2233B5A300250BA1 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C5F4DC2233B5A300250BA1 /* Request.swift */; };
+		47C5F4E22233B5C300250BA1 /* SingleDataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C5F4E12233B5C300250BA1 /* SingleDataResponse.swift */; };
+		47C5F4E62233B72400250BA1 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C5F4E52233B72400250BA1 /* Location.swift */; };
+		47C5F4E82233B73C00250BA1 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C5F4E72233B73C00250BA1 /* CurrentWeather.swift */; };
+		47C5F4EA2233B75300250BA1 /* ForecastWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C5F4E92233B75300250BA1 /* ForecastWeather.swift */; };
+		47C5F4EC22340F5E00250BA1 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C5F4EB22340F5E00250BA1 /* Weather.swift */; };
+		47C5F4F02234163000250BA1 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C5F4EF2234163000250BA1 /* Environment.swift */; };
+		47C5F4F422341ACD00250BA1 /* WeatherRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C5F4F322341ACD00250BA1 /* WeatherRequest.swift */; };
+		47C5F4F622341B8B00250BA1 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C5F4F522341B8B00250BA1 /* Constant.swift */; };
+		6C4FFA280A365604AEE4344E /* Pods_Gojek_TestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3503413DC7A5FBE5096B7AB3 /* Pods_Gojek_TestUITests.framework */; };
+		81D58D6DE5AE1ECA0978E915 /* Pods_Gojek_TestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90924A7C1F417C35F027059F /* Pods_Gojek_TestTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +57,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22282A51BF9831CD60566F35 /* Pods_Gojek_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gojek_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3503413DC7A5FBE5096B7AB3 /* Pods_Gojek_TestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gojek_TestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A1EDFEB7A5972D6E210EA43 /* Pods-Gojek_TestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gojek_TestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gojek_TestUITests/Pods-Gojek_TestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4193AD8E5DB4519792A7B2EC /* Pods-Gojek_TestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gojek_TestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gojek_TestTests/Pods-Gojek_TestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		47024F8422353FCD0082FF14 /* FailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailedViewController.swift; sourceTree = "<group>"; };
+		47024F8522353FCD0082FF14 /* FailedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FailedViewController.xib; sourceTree = "<group>"; };
 		47C5F491223393B500250BA1 /* Gojek_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gojek_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47C5F494223393B500250BA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		47C5F496223393B500250BA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		47C5F499223393B500250BA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		47C5F49C223393B500250BA1 /* Gojek_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Gojek_Test.xcdatamodel; sourceTree = "<group>"; };
 		47C5F49E223393B700250BA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +76,30 @@
 		47C5F4B3223393B700250BA1 /* Gojek_TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Gojek_TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		47C5F4B7223393B700250BA1 /* Gojek_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gojek_TestUITests.swift; sourceTree = "<group>"; };
 		47C5F4B9223393B700250BA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47C5F4C52233A32800250BA1 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		47C5F4C92233A86100250BA1 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		47C5F4CA2233A86100250BA1 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		47C5F4CB2233A86100250BA1 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		47C5F4CC2233A86100250BA1 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		47C5F4D12233A8BA00250BA1 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		47C5F4D52233ADE900250BA1 /* WeatherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTableViewCell.swift; sourceTree = "<group>"; };
+		47C5F4D62233ADE900250BA1 /* WeatherTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherTableViewCell.xib; sourceTree = "<group>"; };
+		47C5F4DB2233B5A200250BA1 /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		47C5F4DC2233B5A300250BA1 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		47C5F4E12233B5C300250BA1 /* SingleDataResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleDataResponse.swift; sourceTree = "<group>"; };
+		47C5F4E52233B72400250BA1 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		47C5F4E72233B73C00250BA1 /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		47C5F4E92233B75300250BA1 /* ForecastWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastWeather.swift; sourceTree = "<group>"; };
+		47C5F4EB22340F5E00250BA1 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		47C5F4EE223413FC00250BA1 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		47C5F4EF2234163000250BA1 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		47C5F4F322341ACD00250BA1 /* WeatherRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRequest.swift; sourceTree = "<group>"; };
+		47C5F4F522341B8B00250BA1 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		6B705FE2E4B745C81886C95B /* Pods-Gojek_Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gojek_Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gojek_Test/Pods-Gojek_Test.debug.xcconfig"; sourceTree = "<group>"; };
+		8F3DE30C6FA32CC43711E468 /* Pods-Gojek_Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gojek_Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gojek_Test/Pods-Gojek_Test.release.xcconfig"; sourceTree = "<group>"; };
+		90924A7C1F417C35F027059F /* Pods_Gojek_TestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gojek_TestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92602A91AD625CE0D8B76A0C /* Pods-Gojek_TestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gojek_TestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gojek_TestTests/Pods-Gojek_TestTests.release.xcconfig"; sourceTree = "<group>"; };
+		E282AF7F62E3075BEE463880 /* Pods-Gojek_TestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gojek_TestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gojek_TestUITests/Pods-Gojek_TestUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D4F9E72A625CB81AB0FECBB /* Pods_Gojek_Test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81D58D6DE5AE1ECA0978E915 /* Pods_Gojek_TestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +123,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C4FFA280A365604AEE4344E /* Pods_Gojek_TestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3BEE0608E83A6BBF19BA0C87 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B705FE2E4B745C81886C95B /* Pods-Gojek_Test.debug.xcconfig */,
+				8F3DE30C6FA32CC43711E468 /* Pods-Gojek_Test.release.xcconfig */,
+				4193AD8E5DB4519792A7B2EC /* Pods-Gojek_TestTests.debug.xcconfig */,
+				92602A91AD625CE0D8B76A0C /* Pods-Gojek_TestTests.release.xcconfig */,
+				3A1EDFEB7A5972D6E210EA43 /* Pods-Gojek_TestUITests.debug.xcconfig */,
+				E282AF7F62E3075BEE463880 /* Pods-Gojek_TestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		47024F8322353F980082FF14 /* Failed View */ = {
+			isa = PBXGroup;
+			children = (
+				47024F8422353FCD0082FF14 /* FailedViewController.swift */,
+				47024F8522353FCD0082FF14 /* FailedViewController.xib */,
+			);
+			path = "Failed View";
+			sourceTree = "<group>";
+		};
 		47C5F488223393B500250BA1 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +159,8 @@
 				47C5F4AB223393B700250BA1 /* Gojek_TestTests */,
 				47C5F4B6223393B700250BA1 /* Gojek_TestUITests */,
 				47C5F492223393B500250BA1 /* Products */,
+				3BEE0608E83A6BBF19BA0C87 /* Pods */,
+				F7D8B3A9ABF60DD232837095 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +177,13 @@
 		47C5F493223393B500250BA1 /* Gojek_Test */ = {
 			isa = PBXGroup;
 			children = (
+				47C5F4F222341AA200250BA1 /* Setup */,
+				47C5F4E42233B63D00250BA1 /* Storyboard */,
+				47C5F4E32233B63500250BA1 /* Model */,
+				47C5F4D92233B54300250BA1 /* Network Abstraction */,
+				47C5F4D32233ADA500250BA1 /* View */,
+				47C5F4C82233A82100250BA1 /* Font */,
 				47C5F494223393B500250BA1 /* AppDelegate.swift */,
-				47C5F496223393B500250BA1 /* ViewController.swift */,
-				47C5F498223393B500250BA1 /* Main.storyboard */,
 				47C5F49E223393B700250BA1 /* Assets.xcassets */,
 				47C5F4A0223393B700250BA1 /* LaunchScreen.storyboard */,
 				47C5F4A3223393B700250BA1 /* Info.plist */,
@@ -128,6 +210,104 @@
 			path = Gojek_TestUITests;
 			sourceTree = "<group>";
 		};
+		47C5F4C82233A82100250BA1 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				47C5F4D12233A8BA00250BA1 /* Roboto-Black.ttf */,
+				47C5F4CC2233A86100250BA1 /* Roboto-Bold.ttf */,
+				47C5F4C92233A86100250BA1 /* Roboto-Medium.ttf */,
+				47C5F4CA2233A86100250BA1 /* Roboto-Regular.ttf */,
+				47C5F4CB2233A86100250BA1 /* Roboto-Thin.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		47C5F4D32233ADA500250BA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				47024F8322353F980082FF14 /* Failed View */,
+				47C5F4D42233ADB600250BA1 /* WeatherCell */,
+				47C5F4C52233A32800250BA1 /* WeatherViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		47C5F4D42233ADB600250BA1 /* WeatherCell */ = {
+			isa = PBXGroup;
+			children = (
+				47C5F4D52233ADE900250BA1 /* WeatherTableViewCell.swift */,
+				47C5F4D62233ADE900250BA1 /* WeatherTableViewCell.xib */,
+			);
+			path = WeatherCell;
+			sourceTree = "<group>";
+		};
+		47C5F4D92233B54300250BA1 /* Network Abstraction */ = {
+			isa = PBXGroup;
+			children = (
+				47C5F4ED223411B000250BA1 /* Request */,
+				47C5F4E02233B5B400250BA1 /* Response */,
+				47C5F4DC2233B5A300250BA1 /* Request.swift */,
+				47C5F4DB2233B5A200250BA1 /* Response.swift */,
+			);
+			path = "Network Abstraction";
+			sourceTree = "<group>";
+		};
+		47C5F4E02233B5B400250BA1 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				47C5F4E12233B5C300250BA1 /* SingleDataResponse.swift */,
+			);
+			name = Response;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		47C5F4E32233B63500250BA1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				47C5F4E52233B72400250BA1 /* Location.swift */,
+				47C5F4E72233B73C00250BA1 /* CurrentWeather.swift */,
+				47C5F4E92233B75300250BA1 /* ForecastWeather.swift */,
+				47C5F4EB22340F5E00250BA1 /* Weather.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		47C5F4E42233B63D00250BA1 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				47C5F498223393B500250BA1 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		47C5F4ED223411B000250BA1 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				47C5F4F322341ACD00250BA1 /* WeatherRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		47C5F4F222341AA200250BA1 /* Setup */ = {
+			isa = PBXGroup;
+			children = (
+				47C5F4EF2234163000250BA1 /* Environment.swift */,
+				47C5F4EE223413FC00250BA1 /* Config.xcconfig */,
+				47C5F4F522341B8B00250BA1 /* Constant.swift */,
+			);
+			path = Setup;
+			sourceTree = "<group>";
+		};
+		F7D8B3A9ABF60DD232837095 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22282A51BF9831CD60566F35 /* Pods_Gojek_Test.framework */,
+				90924A7C1F417C35F027059F /* Pods_Gojek_TestTests.framework */,
+				3503413DC7A5FBE5096B7AB3 /* Pods_Gojek_TestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +315,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 47C5F4BC223393B700250BA1 /* Build configuration list for PBXNativeTarget "Gojek_Test" */;
 			buildPhases = (
+				868DFEED8DACAF67F72A4FAA /* [CP] Check Pods Manifest.lock */,
 				47C5F48D223393B500250BA1 /* Sources */,
 				47C5F48E223393B500250BA1 /* Frameworks */,
 				47C5F48F223393B500250BA1 /* Resources */,
+				844C29243D2E938F79145D0A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +334,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 47C5F4BF223393B700250BA1 /* Build configuration list for PBXNativeTarget "Gojek_TestTests" */;
 			buildPhases = (
+				FF664F3EC37093A34FD06936 /* [CP] Check Pods Manifest.lock */,
 				47C5F4A4223393B700250BA1 /* Sources */,
 				47C5F4A5223393B700250BA1 /* Frameworks */,
 				47C5F4A6223393B700250BA1 /* Resources */,
@@ -170,6 +353,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 47C5F4C2223393B700250BA1 /* Build configuration list for PBXNativeTarget "Gojek_TestUITests" */;
 			buildPhases = (
+				613C34440763BCBFE77284A7 /* [CP] Check Pods Manifest.lock */,
 				47C5F4AF223393B700250BA1 /* Sources */,
 				47C5F4B0223393B700250BA1 /* Frameworks */,
 				47C5F4B1223393B700250BA1 /* Resources */,
@@ -232,8 +416,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47C5F4D02233A86100250BA1 /* Roboto-Bold.ttf in Resources */,
+				47C5F4CD2233A86100250BA1 /* Roboto-Medium.ttf in Resources */,
 				47C5F4A2223393B700250BA1 /* LaunchScreen.storyboard in Resources */,
+				47C5F4D22233A8BA00250BA1 /* Roboto-Black.ttf in Resources */,
+				47C5F4CF2233A86100250BA1 /* Roboto-Thin.ttf in Resources */,
+				47024F8722353FCD0082FF14 /* FailedViewController.xib in Resources */,
+				47C5F4CE2233A86100250BA1 /* Roboto-Regular.ttf in Resources */,
 				47C5F49F223393B700250BA1 /* Assets.xcassets in Resources */,
+				47C5F4D82233ADE900250BA1 /* WeatherTableViewCell.xib in Resources */,
 				47C5F49A223393B500250BA1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,13 +445,118 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		613C34440763BCBFE77284A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gojek_TestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		844C29243D2E938F79145D0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Gojek_Test/Pods-Gojek_Test-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gojek_Test/Pods-Gojek_Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		868DFEED8DACAF67F72A4FAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gojek_Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF664F3EC37093A34FD06936 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gojek_TestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		47C5F48D223393B500250BA1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47C5F4D72233ADE900250BA1 /* WeatherTableViewCell.swift in Sources */,
 				47C5F49D223393B500250BA1 /* Gojek_Test.xcdatamodeld in Sources */,
-				47C5F497223393B500250BA1 /* ViewController.swift in Sources */,
+				47C5F4F622341B8B00250BA1 /* Constant.swift in Sources */,
+				47C5F4C62233A32800250BA1 /* WeatherViewController.swift in Sources */,
+				47024F8622353FCD0082FF14 /* FailedViewController.swift in Sources */,
+				47C5F4EC22340F5E00250BA1 /* Weather.swift in Sources */,
+				47C5F4E62233B72400250BA1 /* Location.swift in Sources */,
+				47C5F4EA2233B75300250BA1 /* ForecastWeather.swift in Sources */,
+				47C5F4DF2233B5A300250BA1 /* Request.swift in Sources */,
+				47C5F4F02234163000250BA1 /* Environment.swift in Sources */,
+				47C5F4E82233B73C00250BA1 /* CurrentWeather.swift in Sources */,
+				47C5F4DE2233B5A300250BA1 /* Response.swift in Sources */,
+				47C5F4E22233B5C300250BA1 /* SingleDataResponse.swift in Sources */,
+				47C5F4F422341ACD00250BA1 /* WeatherRequest.swift in Sources */,
 				47C5F495223393B500250BA1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,6 +614,7 @@
 /* Begin XCBuildConfiguration section */
 		47C5F4BA223393B700250BA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47C5F4EE223413FC00250BA1 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -379,6 +676,7 @@
 		};
 		47C5F4BB223393B700250BA1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47C5F4EE223413FC00250BA1 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -434,6 +732,7 @@
 		};
 		47C5F4BD223393B700250BA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B705FE2E4B745C81886C95B /* Pods-Gojek_Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +751,7 @@
 		};
 		47C5F4BE223393B700250BA1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F3DE30C6FA32CC43711E468 /* Pods-Gojek_Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +770,7 @@
 		};
 		47C5F4C0223393B700250BA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4193AD8E5DB4519792A7B2EC /* Pods-Gojek_TestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +792,7 @@
 		};
 		47C5F4C1223393B700250BA1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92602A91AD625CE0D8B76A0C /* Pods-Gojek_TestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +814,7 @@
 		};
 		47C5F4C3223393B700250BA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A1EDFEB7A5972D6E210EA43 /* Pods-Gojek_TestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +835,7 @@
 		};
 		47C5F4C4223393B700250BA1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E282AF7F62E3075BEE463880 /* Pods-Gojek_TestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

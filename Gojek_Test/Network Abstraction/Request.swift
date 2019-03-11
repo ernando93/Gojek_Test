@@ -101,7 +101,9 @@ extension Request {
     
     func send(usingCompletionHandler completionHandler: @escaping (RequestResult<ResponseType>) -> Void) {
         
-        let dataRequest = Alamofire.request(fullURL, method: method, parameters: parameters, encoding: JSONEncoding.default, headers: headers)
+        let newURL = fullURL.absoluteString.removingPercentEncoding
+        
+        let dataRequest = Alamofire.request(newURL!, method: method, parameters: parameters, encoding: JSONEncoding.default, headers: headers)
 
         dataRequest.responseJSON { response in
             switch response.result {
@@ -130,51 +132,5 @@ extension Request {
                 }
             }
         }
-    }
-    
-    func sendMultiPart(usingCompletionHandler completionHandler: @escaping (RequestResult<ResponseType>) -> Void) {
-        
-        Alamofire.upload(multipartFormData: { (multipartFormData) in
-            for (key, value) in self.parameters ?? ["": ""] {
-                multipartFormData.append("\(value)".data(using: String.Encoding.utf8)!, withName: key as String)
-            }
-        }, usingThreshold: UInt64.init(), to: fullURL, method: method, headers: headers){ result in
-            switch result {
-                
-            case .success(let request, let streamingFromDisk, let streamFileURL):
-                print("Upload Success : \(request), \(streamingFromDisk), \(String(describing: streamFileURL))")
-                request.responseJSON() { response in
-                    switch response.result {
-                        
-                    case .success(let responseValue):
-                        if let theResponse = ResponseType(json: responseValue) {
-                            completionHandler(RequestResult<ResponseType>.success(theResponse))
-                        } else {
-                            completionHandler(RequestResult.failure(.invalidReturnedJSON))
-                        }
-                    case .failure(let error):
-                        if let error = error as? AFError {
-                            switch error {
-                            case .responseSerializationFailed(reason: _):
-                                completionHandler(RequestResult.failure(.invalidReturnedJSON))
-                            default:
-                                completionHandler(RequestResult.failure(.unknownError))
-                            }
-                        } else {
-                            let error = error as NSError
-                            if error.domain == NSURLErrorDomain {
-                                completionHandler(RequestResult.failure(.networkFailure))
-                            } else {
-                                completionHandler(RequestResult.failure(.unknownError))
-                            }
-                        }
-                    }
-                }
-            case .failure(let error):
-                print(error)
-                completionHandler(RequestResult.failure(.unknownError))
-            }
-        }
-    
     }
 }
