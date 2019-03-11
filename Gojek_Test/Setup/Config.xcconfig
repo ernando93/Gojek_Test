@@ -1,0 +1,13 @@
+//
+//  Config.xcconfig
+//  Gojek_Test
+//
+//  Created by Ernando Kasaluhe on 09/03/19.
+//  Copyright © 2019 PT Kita Indonesia Plus. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+api_url  = api.apixu.com/v1/forecast
+protocol = https
