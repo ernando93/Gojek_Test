@@ -19,7 +19,7 @@ extension WeatherRequest: Request {
     }
     
     var path: String {
-        return "/v1/forecast.json?key=5bc8e246f02844a394455029190903&q=-6.117664,106.84513&days=4"
+        return "/v1/forecast.json?key=5bc8e246f02844a394455029190903&q=\(q)&days=\(days)"
     }
     
     var method: HTTPMethod {
